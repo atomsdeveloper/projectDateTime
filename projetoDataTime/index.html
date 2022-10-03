@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/iconRelogio.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Hora do Dia </title>
+</head>
+<body onload="newDateTime()">
+    <div class="container">
+        <header class="dayTime">
+            <h2> Hora do Dia! </h2>
+        </header>
+
+        <hr>
+
+        <section class="section">
+            <header>
+                <h3 id="resultMsg"> <!-- Hora do dia aqui --> </h3>
+                <h5 id="resultDate"> <!--Aguardando --> </h5>
+            </header>
+
+            <div class="boxImg">
+                <img id="resultImg" src="./img/imgLoading.png" alt="Imagem Principal">
+            </div>
+        </section>
+    </div>
+    
+    <script src="./controller/app.js"></script>
+</body>
+</html>
